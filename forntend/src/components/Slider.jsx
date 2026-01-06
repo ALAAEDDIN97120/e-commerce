@@ -1,8 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
-import { assets } from "../assets/assets"; // استيراد الصور من ملف assets
+import { assets } from "../assets/assets";
 
-// بيانات السلايدر - يمكنك تخصيص الصور من مجلد assets الخاص بك
 const sliderItems = [
 	{
 		id: 1,
